@@ -6,18 +6,24 @@
 /* колір фону секції Наша команда #F5F4FA*/
 
 :root {
+    /* bg color */
+    --accent-bg-color: #2F303A;
+    --second-bg-color: #F5F4FA;
+    --primary-bg-color: #FFFFFF;
+
+    /* text color */
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-white-color: #FFFFFF;
     --primary-black-color:#000000;
-    --accent-bg-color: #2F303A;
-    --second-bg-color: #F5F4FA;
+ 
+    /* btn */
     --btn-bg-hover: #188CE8;
 }
 
 body {
-    background-color:var(--primary-bg-color);
+    background-color: var(--primary-bg-color)
     color: var(--primary-text-color);
     
     font-family: 'Roboto', 'Tahoma', 'Verdana', sans-serif;
