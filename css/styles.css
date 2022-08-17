@@ -215,7 +215,6 @@ body {
 .exampl-title {
     color: var(--title-text-color);
 
-    font-weight: 700;
     font-size: 18px;
     line-height: 2.00;
     letter-spacing: 0.06em;
