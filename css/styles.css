@@ -156,6 +156,13 @@ body {
 }
 
 /* team */
+.team.section {
+    background-color: var(--second-bg-color);
+}
+
+.team .card {
+    background-color: var(--primary-white-color);
+}
 .team-name {
     color: var(--title-text-color);
     font-weight: 500;
